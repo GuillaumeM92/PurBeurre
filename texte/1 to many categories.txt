@@ -1,0 +1,29 @@
+PYTHON:
+- Créer une liste de tous les mots clés contenus dans la section categories, en utilisant split ","
+- Filtrer cette liste pour supprimer les doublons
+
+MYSQL:
+- Créer une table (categorie_aliments) où chaque colonne est un des mots clés de catégorie d'aliment
+- Pour chaque colonne, associer les aliments de la liste json qui correspondent à la catégorie correspondante (relation one to many)
+- Relier cette nouvelle table à la table principale à l'aide d'une FK ??
+
+
+Catégories :
+
+Petit-Déjeuners
+Produits à tartiner
+Snacks sucrés
+
+Snacks salés
+Plats préparés
+Aliments et boissons à base de végétaux
+Viandes
+
+Produits laitiers
+Fromages
+Yaourts
+
+Desserts
+
+Pains
+Condiments
